@@ -10,8 +10,9 @@ public class ClientHandler {
 
         if("POST".equals(method)){
             RequestProcessor.processRequest(fcgi);
+
         }else{
-            //405
+
         }
     }
 }
